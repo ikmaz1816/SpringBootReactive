@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring_boot_reactive
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/reactive
+    username: root
+    password: admin
+  flyway:
+    url: jdbc:mysql://localhost:3306/reactive
+    user: root
+    password: admin
+
+server:
+  port: 8081
+  error:
+    include-message: always
